@@ -20,6 +20,48 @@
       "description": "Desenvolver os testes automatizados na nova funcionalidade do aplicativo.",
       "status": "todo",
       "priority": "medium"
+    },
+    {
+      "id": "5",
+      "title": "Reunião com o cliente",
+      "description": "Participar da reunião semanal com o cliente para discutir o progresso do projeto.",
+      "status": "todo",
+      "priority": "high"
+    },
+    {
+      "id": "6",
+      "title": "Revisar código",
+      "description": "Revisar o código enviado pelo desenvolvedor antes de fazer o merge.",
+      "status": "doing",
+      "priority": "medium"
+    },
+    {
+      "id": "7",
+      "title": "Atualizar documentação",
+      "description": "Atualizar a documentação do projeto com as novas funcionalidades implementadas.",
+      "status": "todo",
+      "priority": "low"
+    },
+    {
+      "id": "8",
+      "title": "Configurar ambiente de desenvolvimento",
+      "description": "Configurar o ambiente de desenvolvimento para o novo projeto.",
+      "status": "doing",
+      "priority": "high"
+    },
+    {
+      "id": "9",
+      "title": "Fazer deploy da aplicação",
+      "description": "Realizar o deploy da nova versão da aplicação no servidor.",
+      "status": "done",
+      "priority": "high"
+    },
+    {
+      "id": "11",
+      "title": "Revisar proposta",
+      "description": "Revisar a proposta enviada ao cliente antes de enviar a versão final.",
+      "status": "done",
+      "priority": "high"
     }
   ]
 }
