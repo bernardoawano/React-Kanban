@@ -1,54 +1,22 @@
-# React + TypeScript + Vite
+![img-project](https://github.com/user-attachments/assets/16e37677-c35f-4344-bee6-97dde0a6ee19)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📋React-Kanban
 
-Currently, two official plugins are available:
+Este projeto é uma aplicação web desenvolvida com React que simula um quadro Kanban interativo, permitindo o gerenciamento visual de tarefas em diferentes etapas. O sistema permite criar, editar, mover e excluir tarefas entre colunas como "Para Fazer", "Em Progresso" e "Concluído", com suporte a drag-and-drop intuitivo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️Funcionalidades
 
-## Expanding the ESLint configuration
+- Criação de Tarefas
+- Edição e Exclusão de Tarefas
+- Visualização em Estilo Kanban
+- Arrastar e Soltar (Drag and Drop)
+- Persistência de Dados no Navegador
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ⚙️Tecnologias Utilizadas
+<div>
+  <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-typescript-3d-icon-download-in-png-blend-fbx-gltf-file-formats--microsoft-logo-angular-language-javascript-static-type-coding-lang-pack-logos-icons-7577992.png" width="100" />
+  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100" />
+</div>
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Autor
+- [@bernardoawano](https://github.com/bernardoawano)
