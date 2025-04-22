@@ -2,7 +2,7 @@
 
 # 📋React-Kanban
 
-Este projeto é uma aplicação web desenvolvida com React que simula um quadro Kanban interativo, permitindo o gerenciamento visual de tarefas em diferentes etapas. O sistema permite criar, editar, mover e excluir tarefas entre colunas como "Para Fazer", "Em Progresso" e "Concluído", com suporte a drag-and-drop intuitivo.
+Este projeto é uma aplicação web desenvolvida com React que simula um quadro Kanban interativo, permitindo o gerenciamento visual de tarefas em diferentes etapas. O sistema permite criar, editar, mover e excluir tarefas entre colunas como "Para Fazer", "Em Progresso" e "Concluído", com suporte a drag-and-drop intuitivo. Desenvolvido durante o curso da OneBitCode.
 
 ## 🛠️Funcionalidades
 
