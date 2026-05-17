@@ -18,5 +18,9 @@ Este projeto é uma aplicação web desenvolvida com React que simula um quadro 
   <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100" />
 </div>
 
+## 🚀 Demo
+
+https://react-kanban-five-vert.vercel.app/
+
 ## Autor
 - [@bernardoawano](https://github.com/bernardoawano)
