@@ -17,7 +17,7 @@ interface TasksContextProviderProps {
 }
 
 export const TasksContextProvider: React.FC<TasksContextProviderProps> = ({ children }) => {
-    const [tasks, setTasks] = useState<Task[]>()
+    const [tasks, setTasks] = useState<Task[]>([])
 
     useEffect(() => {
         tasksService.fetchTasks().then(data => setTasks(data))
@@ -26,7 +26,7 @@ export const TasksContextProvider: React.FC<TasksContextProviderProps> = ({ chil
     const createTask = async (attributes: Omit<Task, "id">) => {
         const newTask = await tasksService.createTask(attributes)
         setTasks((currentState) => {
-            const updatedTasks = [...currentState, {newTask}]
+            const updatedTasks = [...currentState, newTask]
             return updatedTasks
         })
     }
